@@ -1,0 +1,60 @@
+.tile {
+	width: 40%;
+	height: 0;
+	padding-bottom: 40%;
+	background-color: #a20f5f;
+	max-width: 400px;
+	max-height: 400px;
+	float: left;
+	margin: 2%;
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+	left: 6%;
+	z-index: 0;
+}
+
+.tile :hover {
+	
+}
+
+.front, .back {
+  backface-visibility: hidden;
+	
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+#products {
+	width: 84%;
+	max-width: 800px;
+}
+
+#logo {
+	width: 87%;
+	margin-left: 6%;
+}
+
+body {
+	width: 100%;
+	max-width: 850px;
+	/*padding: 4%;*/
+	overflow-x: hidden;
+	margin: 0;
+	height: 100%;
+}
+
+html {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}

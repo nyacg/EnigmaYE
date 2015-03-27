@@ -1,0 +1,111 @@
+/*.box {
+	border: thick black solid;
+}
+
+#galleryBox {
+	width: 200px;
+	height: 445px;
+	border-bottom: 5px solid #a20f5f; 
+}*/
+
+.imageContainer {
+	list-style: none;
+	width: 170px;
+	height: 120px;
+	overflow: hidden;
+	margin: 0px auto 8px auto;
+}
+
+.imageContainer:hover {
+	margin-left: 5px;
+}
+
+.imageContainer > img {
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.arrow {
+	opacity: 0.4;
+	margin: 0 10px 0 10px;
+}
+
+.current:not(.home) {
+	margin-left: 5px;
+}
+
+#buttons {
+	float: right;
+	margin-right: 32px;
+	position: relative;
+	top: -5px;
+}
+
+#smallGallery {
+	position: relative;
+	margin-top: 0px;
+	padding: 0px;
+	width: 200px;
+	height: 360px;
+}
+
+#smallGalleryContainer {
+	margin-top: -30px;
+	list-style: none;
+	height: 400px;
+	width: 200px;
+	float: right;
+	margin-right: -8px;
+}
+
+#galleryHolder {
+	position: relative;
+	top: -22px;
+	overflow: hidden;
+	height: 375px;
+	width: 200px;
+}
+
+#bigGallery {
+	float: left;
+	width: 790px;
+	text-align: center;
+	height: 400px;
+}
+
+#bigImage {
+	height: 100%;
+}
+
+#leftArrow {
+	position: absolute;
+	top: 120px;
+	left: 0px;
+}
+
+#rightArrow {
+	position: absolute;
+	top: 120px;
+	right: 0px;
+}
+
+#imageCaption {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -185px;
+	width: 370px;
+	/*height: 13%;*/
+	background: rgba(0, 0, 0, 0.5)
+}
+
+#imageHolder {
+	position: relative;
+	width: 750px;
+	height: 370px;
+}
+
+#imageCaption {
+	color: white;
+}
